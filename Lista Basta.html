@@ -17,17 +17,28 @@
     <ul id="jh">
     
     </ul>
-
+<button onclick="luquitasgod()">Listas</button>
     <script>
-        
+        function luquitasgod() {
+            
         var si = prompt("ingrese la cantidad de recordatorios que quiere");
         for (let index = si; index >=1; index--) {
             inicio = prompt("ingrese el recordatorio")
             let hola = document.getElementById("12").innerHTML;
             document.getElementById("jh").innerHTML += "<li>"+inicio+"</li>" ;
-       
+            
+        
         }
+    }
+        
     </script>
+    <button onclick="borrareldeabajo()">Borrar</button>
+        <script>
+            function borrareldeabajo() {
+            var jh=document.getElementById("jh");
+            jh.removeChild(jh.childNodes[0]); 
+            }
+        </script>
 
 </body>
 
