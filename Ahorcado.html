@@ -7,12 +7,12 @@
     <title>Ahorcado</title>
 </head>
 <body>
-    <h1 style="color: white;">+Palabra+</h1>
+    <h1 style="color: white;">Palabra</h1>
     <h1>Bienvenido al ahorcado</h1>
     <p id="palabra1"></p>
     <button onclick="Boton()">Play</button>
     <script>
-        function Boton(params){
+        function Boton(){
             Palabra=prompt("ingrese la Palabra")        
                 document.getElementById("palabra1").innerHTML += "<h1 style='visibility: hidden;'>"+Palabra+"</h1>";
         }

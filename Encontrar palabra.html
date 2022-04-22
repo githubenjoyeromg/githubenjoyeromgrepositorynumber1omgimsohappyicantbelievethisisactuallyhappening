@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+</head>
+
+<body>
+    <h1>Funcion encontrar</h1>
+    <p id="palabra1"></p>
+    <button onclick="encontrar()">Play</button>
+    <script>
+        function encontrar(arreglo) {
+            letra = prompt("ingresar letra")
+            arreglo2 = []
+            for (let x = 0; x < arreglo.length; x++) {
+
+                if (letra == (arreglo[x])) {
+                    console.log("la palabra esta en el lugar: ", x);
+                    arreglo2.push(x)
+                }
+            }
+            if (condition) {
+                
+            }
+            console.log(arreglo2)
+                  //encontrar(['a','b','c','a'])
+        }  
+    </script>
+</body>
+
+</html>
